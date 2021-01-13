@@ -8,6 +8,7 @@ import Cards from "../components/cards"
 import SEO from "../components/seo"
 
 const IndexPage = props => {
+  console.log("background image")
   return (
     <Layout
       style={{
@@ -47,7 +48,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allContentfulAsset {
+    allContentfulAsset (filter: {file: {fileName: {eq: "hero-background@2x.png"}}}){
       edges {
         node {
           file {
