@@ -1,0 +1,233 @@
+.background-image {
+  background: linear-gradient(360deg, #000000 13.96%, rgba(0, 0, 0, 0) 107.34%);
+  height: 100%;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.content-box {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 68px;
+  color: #ffffff;
+}
+
+.little-header {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.title-line {
+  font-size: 56px;
+}
+
+.small-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.primary-button {
+  position: relative;
+  height: 40px;
+  width: 141px;
+  border-radius: 3px;
+  background: #2885f6;
+  text-align: center;
+}
+
+.primary-button-span {
+  font-size: 12px;
+}
+
+#secondary-button {
+  border: none;
+  width: 174px;
+  height: 40px;
+  background: #767d84;
+  border-radius: 3px;
+}
+
+.secondary-button-span {
+  left: 17.02%;
+  right: 25.53%;
+  top: 27.5%;
+  bottom: 30%;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.container-1 {
+  width: 396px;
+  height: 312px;
+  left: 265px;
+  top: 466px;
+  background: #ffffff;
+  color: black;
+  display: flex;
+}
+
+.card-1 {
+  color: black;
+}
+
+.get-started-button {
+  color: white;
+  background: #2885f6;
+  border-radius: 3px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14.4px;
+  line-height: 17px;
+  height: 40px;
+  width: 141px;
+  left: -3px;
+  top: 4px;
+  border-radius: 3px;
+}
+
+.header-buttons {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14.4px;
+  line-height: 17px;
+  color: white;
+  right: 35px;
+}
+
+.logo-style {
+  height: 24px;
+  width: 123.76469421386719px;
+  left: 265px;
+  top: 40.800048828125px;
+  border-radius: 0px;
+  margin-right: 700px;
+}
+
+.header-style {
+  margin-bottom: 3rem;
+}
+
+.card-image {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: -65px;
+  right: -39px;
+}
+
+.card-container {
+  position: relative;
+  background-color: white;
+  min-height: 250px;
+  margin-top: 5rem;
+}
+.card-content {
+  left: 29px;
+  position: absolute;
+  bottom: 26px;
+  color: black;
+}
+
+.card-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 12px 0;
+}
+
+.card-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.4px;
+  line-height: 17px;
+  margin: 12px 0;
+}
+
+.card-learn-more {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14.4px;
+  line-height: 17px;
+  margin-top: 24px;
+  color: #f65928;
+}
+
+#no-gutters {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 1rem;
+}
+.no-gutters [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.no-gutters .col,
+[class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#nav-container {
+  margin-left: 6.5%;
+}
+
+@media only screen and (max-width: 576px) {
+  #no-gutters {
+    margin: 1rem;
+  }
+  #nav-container {
+    margin-left: 0;
+  }
+  .primary-button {
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  #hero-section {
+    padding: 0;
+  }
+}
+
+.background-gradient {
+  background: linear-gradient(360deg, #000000 13.96%, rgba(0, 0, 0, 0) 107.34%);
+  min-height: 100%;
+}
+
+.carrot-font {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+.button-text-span {
+  font-weight: bold;
+  font-size: 14.4px;
+  line-height: 17px;
+}
+
+.nav-button {
+  padding: 0;
+  margin-top: -10px;
+}
